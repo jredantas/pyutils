@@ -1,0 +1,5 @@
+# exclude build paths
+    /build/*
+    /dist/*
+    /pyutils.egg-info/*
+
