@@ -15,8 +15,7 @@ class Timer(object):
         self.start_time = 0.
         self.diff = 0.
         self.average_time = 0.
-        self.start_date = time.strftime("%Y-%m-%d %H:%M:%S")
-        
+
     def tic(self):
         # using time.time instead of time.clock because time time.clock
         # does not normalize for multithreading
@@ -31,9 +30,3 @@ class Timer(object):
             return self.average_time
         else:
             return self.diff
-
-    def set_start_date(self):
-        self.start_date = time.strftime("%Y-%m-%d %H:%M:%S")
-        
-    def get_start_date(self):
-        return self.start_date    

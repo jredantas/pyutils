@@ -9,7 +9,7 @@ Created on Thu Aug 10 15:28:50 2017
 from setuptools import setup
 
 setup(name='pyutils',
-      version='0.1',
+      version='0.2',
       description='Utilities for Python projects',
       url='http://github.com/jredantas/pyutils',
       author='Jose Renato Dantas',
